@@ -1,0 +1,40 @@
+#wrapper {
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#sidebar-wrapper {
+  width: 250px;
+  background-color: #d63384; 
+  position: relative;
+}
+
+#sidebar-wrapper .list-group-item {
+  background-color: #d63384; 
+  color: #fff;
+}
+
+#sidebar-wrapper .list-group-item:hover {
+  background-color: #ff66b2;
+}
+
+#page-content-wrapper {
+  flex: 1;
+  padding: 20px;
+}
+
+#menu-toggle {
+  margin-left: 10px;
+}
+
+.logout-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: calc(100% - 40px);
+}
+
+.btn-pink {
+  background-color: #d63384!important;
+}
